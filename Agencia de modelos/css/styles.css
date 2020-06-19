@@ -12,9 +12,8 @@ body {
 .container {
 	width: 100%;
 	height: auto;
-	background-color: rgb(234, 243, 239);
+	background-color: rgb(250, 241, 252);
 	margin: auto;
-	padding-bottom: 1rem;
 }
 
 
@@ -32,11 +31,13 @@ body {
 .form_inicio h2 {
 	font-weight: bold;
 	color: rgb(155, 17, 235);
-	font-size: 18px;
+    font-size: 18px;
+    font-size: 50px;
 }
 
 h2 span {
-	color: rgb(82, 4, 172);
+    color: rgb(82, 4, 172);
+    font-size: 50px;
 }
 
 .form_secciones {
@@ -47,11 +48,11 @@ h2 span {
 }
 
 a:hover{
-    color: rgb(37, 71, 2);
+    color: rgb(59, 112, 6);
 }
 
 a, a:visited{
-    color: rgb(170, 46, 9);
+    color: rgb(19, 7, 190);
     font-size: 30px;
     font-weight: bold;
 }
@@ -60,4 +61,23 @@ h1 {
     color: rgb(82, 4, 172);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 3px 50px;
+}
+
+.imagen{
+
+    size: 20px;
+	height: auto;
+	margin: auto;
+}
+
+h3{
+    color: rgb(49, 102, 5);
+    font-size: 70px;
+    font-weight: bold;
+}
+
+p{
+    color: rgb(143, 8, 132);
+    font-size: 25px;
+    font-weight: bold;
 }
